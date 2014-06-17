@@ -1,0 +1,31 @@
+{
+  "name": "resolve-deep",
+  "version": "0.0.0",
+  "description": "Resolve all promises in a structure",
+  "main": "resolve-deep.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "Jan Krems <jan.krems@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "bluebird": "^2.1.2"
+  },
+  "devDependencies": {
+    "mocha": "^1.20.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/jkrems/resolve-deep.git"
+  },
+  "keywords": [
+    "promise",
+    "bluebird",
+    "resolve",
+    "deep"
+  ],
+  "bugs": {
+    "url": "https://github.com/jkrems/resolve-deep/issues"
+  },
+  "homepage": "https://github.com/jkrems/resolve-deep"
+}
