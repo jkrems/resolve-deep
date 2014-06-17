@@ -1,6 +1,6 @@
 {
   "name": "resolve-deep",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Resolve all promises in a structure",
   "main": "resolve-deep.js",
   "scripts": {
