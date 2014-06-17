@@ -36,6 +36,13 @@ describe('resolveDeep', function() {
       });
   });
 
+  it('ignores a wrapping promise', function() {
+    return resolveDeep(resolve(99))
+      .then(function(v) {
+        assert.equal(v, 99);
+      });
+  });
+
   it('honors toJSON methods', function() {
     return resolveDeep({ toJSON: function() { return [ resolve('foo'), 13 ]; } })
       .then(function(arr) {

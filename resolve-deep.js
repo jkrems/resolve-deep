@@ -55,5 +55,5 @@ module.exports = function resolveDeep(root) {
     });
   }
 
-  return _resolveDeep(root);
+  return resolve(root).then(_resolveDeep);
 };
